@@ -4,9 +4,9 @@
 
  currently supported commands:
 
- **/help** - display help menu
- **/nick [new name]** - change your chat name
- **/exit** - gracefully disconnect from the server
+ **/help** - display help menu <br>
+ **/nick [new name]** - change your chat name<br>
+ **/exit** - gracefully disconnect from the server<br>
 
 feel free to make a PR with your own commands that you think
 could make it better.

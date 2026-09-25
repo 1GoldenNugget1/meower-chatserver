@@ -143,7 +143,7 @@ func (s *Server) handleConnection(conn net.Conn) {
 
 			switch cmd {
 			case "/test":
-				client.ch <- "Test command received.\n"
+				s.broadcast <- "Test command received.\n"
 				return
 			case "/help":
 				client.ch <- "Available commands:\n" +
